@@ -1,0 +1,62 @@
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 300px;
+    margin: 10px;
+}
+
+.item-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(9, 9, 9, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 60%;
+    height: 60px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    color: rgb(161, 133, 95);
+}
+
+.item-name:hover{
+    background-color: rgba(204, 134, 37, 0.3);
+}
+
+.delete-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 0, 0, 0.593);
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 10px;
+    width: 20%;
+    height: 60px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    color: rgb(161, 133, 95);
+}
+
+.delete-btn:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v61/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1n-q_4MrImHCIJIZrDCvHOej.woff2) format('woff2');
+  }
+  
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    white-space: nowrap;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    color: red;
+}

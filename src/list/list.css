@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(227, 222, 217);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(179, 169, 158, 0.5);
+    border: 3px solid rgba(159, 151, 126, 0.3);
+    border-radius: 10px;
+    width: 300px;
+    height: 600px;
+    margin: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.list-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 169, 158, 0.5);
+    border: 3px solid rgba(159, 151, 126, 0.3);
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.list-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(181, 169, 155, 0.5);
+    width: 100%;
+    height: 50px;
+    color: rgb(218, 205, 184);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.form-item{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(161, 133, 95);
+}
+
+input{
+    font: 15px Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgba(146, 133, 115, 0.774);
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: 0px solid rgba(0, 0, 0, 0.3);
+    border-bottom:1px solid rgb(161, 133, 95);
+    background-color: rgba(240, 248, 255, 0);
+}
+
+
+
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected {
+    -webkit-text-fill-color: rgba(146, 133, 115, 0.774) !important;
+    transition: background-color 5000s ease-in-out 0s !important;
+}
+
+.form-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    cursor: pointer;
+    margin: 10px;
+    width: 100px;
+    height: 60px;
+    border: 1px solid rgba(9, 9, 9, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    color: rgb(161, 133, 95);
+}
+
+.list-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(204, 134, 37);
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 10px;
+    width: 20%;
+    height: 60px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    color: rgb(161, 133, 95);
+}
+
+.list-footer:hover{
+    background-color: rgba(204, 134, 37, 0.3);
+}
+   
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v61/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1n-q_4MrImHCIJIZrDCvHOej.woff2) format('woff2');
+  }
+  
+.material-symbols-outline {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    white-space: nowrap;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    color: rgb(204, 134, 37);
+}
+
+.list-detail-header{
+    color: rgb(217, 156, 56,0.6);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
